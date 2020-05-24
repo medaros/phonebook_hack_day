@@ -19,7 +19,8 @@ export class AppComponent implements OnInit{
       if(res.contacts)
         this.contacts = res.contacts
 
-      console.log(this.contacts)
+      // for debugging
+      //console.log(this.contacts)
     })
   }
 }
