@@ -9,7 +9,7 @@ EN FRANÇAIS :
 
 IN ENGLISH : 
 -------------
-- The Project made in Angular 9. The challenge was to create a front interface that lets the users see and filter a contact list. The contact list data is retreived thanks to an API so the creation of a service is necessary to handle HTTP request / response.
+- The project made in Angular 9. The challenge was to create a front interface that lets the users see and filter a contact list. The contact list data is retreived thanks to an API so the creation of a service is necessary to handle HTTP request / response.
 - If you want to edit project files you need to install all modules first (I deleted the node_modules folder because it took to much storage space).
 
 - The folder **./phonebook vous** contains the source code.
