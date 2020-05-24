@@ -1,0 +1,25 @@
+
+<h1>Phonebook</h1>
+<div class="container">
+  <div class="form">
+    <h3>Search</h3>
+    <input name="search" autocomplete="off" placeholder="Type name, address or numbers ..." [(ngModel)]="search" type="text" class="search">
+  </div>
+  
+  <h3>Contacts list</h3>
+  <ul>
+    <li *ngFor="let contact of contacts | filter:search">
+
+      <div class="flex">
+        <span>Name</span> : <span>{{contact.name}}</span>
+      </div>
+      <div class="flex">
+        <span>Address</span> : <span>{{contact.address}}</span>
+      </div>
+      <div class="flex">
+        <span>Phone</span> : <span>{{contact.phone_number}}</span>
+      </div>
+
+    </li>
+  </ul>
+</div>
